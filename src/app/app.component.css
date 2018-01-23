@@ -1,0 +1,72 @@
+.content {
+    text-align: center;
+    font-family: sans-serif;
+}
+.progress-wrapper {
+    position: relative;
+}
+.text {
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: 1em;
+}
+[role="progressbar"] {
+    margin: auto;
+}
+
+.controls-wrapper {
+    max-width: 220px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.controls-wrapper > *:not(:first-child) {
+    margin-top: 0.5em;
+}
+.controls-wrapper > div {
+    display: flex;
+    justify-content: center;
+}
+.controls-wrapper > div > *:not(:first-child) {
+    margin-left: 1em;
+}
+.controls-wrapper > div > * {
+    color: white;
+    padding: 5px;
+    border: 1px solid;
+    width: 33%;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+.controls-wrapper > div > :first-child {
+    background-color: #2f6fd9;
+}
+.controls-wrapper > div > :last-child {
+    background-color: #fe365e;
+}
+.controls-wrapper > div > :first-child:hover {
+    background-color: #2563c9;
+}
+.controls-wrapper > div > :last-child:hover {
+    background-color: #ee244c;
+}
+input {
+    border-radius: 4px;
+    border: 2px solid #eaeaea;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+    outline: none;
+}
+input:hover {
+    border-color: #ddd;
+}

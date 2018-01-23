@@ -1,27 +1,31 @@
-# AngularElectron
+# Electron Timer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+The Electron Timer from [angularfirebase.com desktop app lesson](https://angularfirebase.com/lessons/desktop-apps-with-electron-and-angular/).
 
-## Development server
+## Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[NodeJs](https://nodejs.org/en/), `npm install`, etc... You know :)
 
-## Code scaffolding
+## Development phase
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
-## Build
+### Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `npm run electron-build` to build the electron application, according to your OS.
 
-## Running unit tests
+Run `npm run electron` to execute the last last application built.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Production phase
 
-## Running end-to-end tests
+### Linux build
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm run package-linux` to package the code into an executable for Linux desktop platforms.
 
-## Further help
+### Windows build
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `npm run package-linux` to package the code into an executable for Windows desktop platforms.
+
+### MacOS build
+
+Run `npm run package-linux` to package the code into an executable for MacOS desktop platforms.
