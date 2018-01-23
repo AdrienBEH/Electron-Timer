@@ -24,8 +24,8 @@ Run `npm run package-linux` to package the code into an executable for Linux des
 
 ### Windows build
 
-Run `npm run package-linux` to package the code into an executable for Windows desktop platforms.
+Run `npm run package-win` to package the code into an executable for Windows desktop platforms.
 
 ### MacOS build
 
-Run `npm run package-linux` to package the code into an executable for MacOS desktop platforms.
+Run `npm run package-mac` to package the code into an executable for MacOS desktop platforms.
